@@ -12,7 +12,7 @@
 .my-card {
    background-color: #252d4a!important;
    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
-   margin-top: 200px;
+   margin-top: 150px;
    height: 300px;
    padding: 10px;
 }
@@ -61,7 +61,7 @@
 }
 
 .start-button {
-  margin-top: 350px;
+  margin-top: 270px;
   padding: 10px 50px 10px 50px;
   font-size: 50px;
   background-color: #333;
@@ -113,5 +113,18 @@
   .try-again {
     font-size: 20px;
   }
+  .my-card {
+    margin-top: 250px;
+  }
 
+}
+
+@media only screen and (max-width:320px) {
+  .my-card {
+    margin-top: 120px;
+  }
+  .start-button {
+    font-size: 30px;
+    margin-top: 230px;
+  }
 }
