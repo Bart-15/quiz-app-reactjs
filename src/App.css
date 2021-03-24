@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   color: #fff;
@@ -13,11 +13,11 @@
 }
 
 .my-card {
-   background-color: #252d4a!important;
-   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
-   margin-top: 150px;
-   height: 300px;
-   padding: 10px;
+  background-color: #252d4a !important;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  margin-top: 150px;
+  height: 300px;
+  padding: 10px;
 }
 
 .text-question {
@@ -33,19 +33,18 @@
 .answer-btn {
   display: block;
   margin: 5px;
-  padding:5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
   background-color: #333;
   border-radius: 5px;
-  border:#fc60cd 2px solid;
+  border: #fc60cd 2px solid;
   font-size: 13px;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .answer-btn:hover {
-  color:#fc60cd ;
-   border:#EDE2CC 2px solid;
+  color: #fc60cd;
+  border: #ede2cc 2px solid;
 }
-
 
 .wrapper {
   display: flex;
@@ -68,61 +67,61 @@
   padding: 10px 50px 10px 50px;
   font-size: 50px;
   background-color: #333;
-  border: #EDE2CC 2px solid;
+  border: #ede2cc 2px solid;
   border-radius: 20px;
   word-spacing: 3px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .start-button:hover {
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   color: #fc60cd;
-  
 }
 
 .try-again {
   margin-left: 20px;
   margin: 5px;
-  padding:5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
   background-color: #333;
   border-radius: 5px;
-  border:#fc60cd 2px solid;
+  border: #fc60cd 2px solid;
   font-size: 13px;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .try-again:hover {
-   color:#fc60cd ;
-   border:#EDE2CC 2px solid;
+  color: #fc60cd;
+  border: #ede2cc 2px solid;
 }
 
-
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .question-flex {
     display: flex;
     justify-content: space-evenly;
-     height: min-content;
+    height: min-content;
   }
   .answers > .answer-btn {
     font-size: 15px;
-    margin: 25px 0 25px 0;
+    margin: 30px 0 25px 0;
+
   }
   .text-question {
     font-size: 15px;
   }
   .question-count > h2 > span {
-   font-size: 25px;
+    margin-top:20px;
+    font-size: 25px;
   }
   .try-again {
     font-size: 20px;
   }
   .my-card {
     margin-top: 250px;
+    height: 350px;
   }
-
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width: 320px) {
   .my-card {
     margin-top: 120px;
   }
